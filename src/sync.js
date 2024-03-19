@@ -7,7 +7,7 @@ require('./model');
 seq.authenticate().then(() => {
   console.log('auth ok')
 }).catch(() => {
-  consolr.log('auth err')
+  console.log('auth err')
 })
 
 // 执行同步
